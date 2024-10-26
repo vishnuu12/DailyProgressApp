@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1729940358405,
+  "timestamp": 1729940645881,
   "index": "/DailyProgressApp/index.html",
   "assetGroups": [
     {
@@ -178,7 +178,7 @@
     "/DailyProgressApp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/DailyProgressApp/index.html": "66719cf08c9a40a8dc7afef050f98ba10ca12653",
     "/DailyProgressApp/main.4100960333a801b2.js": "09209d59bf8ec75bb443fe00b28baf4092162de8",
-    "/DailyProgressApp/manifest.webmanifest": "5e3358eac4aadb6bfd7e745c076f776ba028ea53",
+    "/DailyProgressApp/manifest.webmanifest": "24218212196b99558691f88fb9d60e83b3147a6c",
     "/DailyProgressApp/polyfills-core-js.910e4de39469e90c.js": "e3bf7f847389e257274ca6beabf92527b7dc3265",
     "/DailyProgressApp/polyfills-dom.53531067d86dd607.js": "5d2dd69d44f3ab8ccb0c7bfc1efd197f08cbe2d9",
     "/DailyProgressApp/polyfills.91f579c97d7ae156.js": "9096c58ab972557f0170b2dfdb68c4e84e349fa9",
