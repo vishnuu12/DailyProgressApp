@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mySimpleIonicApp": {
+    "BTS": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -106,10 +106,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mySimpleIonicApp:build:production"
+              "browserTarget": "BTS:build:production"
             },
             "development": {
-              "browserTarget": "mySimpleIonicApp:build:development"
+              "browserTarget": "BTS:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -117,7 +117,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mySimpleIonicApp:build"
+            "browserTarget": "BTS:build"
           }
         },
         "test": {
@@ -148,24 +148,24 @@
         "ionic-cordova-serve": {
           "builder": "@ionic/angular-toolkit:cordova-serve",
           "options": {
-            "cordovaBuildTarget": "mySimpleIonicApp:ionic-cordova-build",
-            "devServerTarget": "mySimpleIonicApp:serve"
+            "cordovaBuildTarget": "BTS:ionic-cordova-build",
+            "devServerTarget": "BTS:serve"
           },
           "configurations": {
             "production": {
-              "cordovaBuildTarget": "mySimpleIonicApp:ionic-cordova-build:production",
-              "devServerTarget": "mySimpleIonicApp:serve:production"
+              "cordovaBuildTarget": "BTS:ionic-cordova-build:production",
+              "devServerTarget": "BTS:serve:production"
             }
           }
         },
         "ionic-cordova-build": {
           "builder": "@ionic/angular-toolkit:cordova-build",
           "options": {
-            "browserTarget": "mySimpleIonicApp:build"
+            "browserTarget": "BTS:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mySimpleIonicApp:build:production"
+              "browserTarget": "BTS:build:production"
             }
           }
         }
